@@ -42,8 +42,6 @@ h1 {
     padding: 16px;
     position: absolute;
     top: 25%;
-    font-size: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     z-index: 100;
     cursor: pointer;
     transition: 400ms;
@@ -88,5 +86,4 @@ h1 {
   .single-dot.active {
     background: #eee;
   }
-
 
