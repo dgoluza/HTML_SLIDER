@@ -22,7 +22,6 @@ function init() {
 
 init();
 
-// Navigation dots
 
 function createNavigationDots() {
   for (let i = 0; i < numberOfImages; i++) {
@@ -38,7 +37,7 @@ function createNavigationDots() {
   navigationDots.children[0].classList.add("active");
 }
 
-// Next Button
+
 
 nextBtn.addEventListener("click", () => {
   if (currentSlide >= numberOfImages - 1) {
@@ -50,7 +49,6 @@ nextBtn.addEventListener("click", () => {
   goToSlide(currentSlide);
 });
 
-// Previous Button
 
 prevBtn.addEventListener("click", () => {
   if (currentSlide <= 0) {
@@ -62,7 +60,6 @@ prevBtn.addEventListener("click", () => {
   goToSlide(currentSlide);
 });
 
-// Go To Slide
 
 function goToSlide(slideNumber) {
   slidesContainer.style.transform =
@@ -72,7 +69,6 @@ function goToSlide(slideNumber) {
   setActiveClass();
 }
 
-// Set Active Class
 
 function setActiveClass() {
 
